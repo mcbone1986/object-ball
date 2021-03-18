@@ -1,6 +1,3 @@
-// https://www.youtube.com/watch?v=0pMNmqBqh30
-
-
 function gameObject() {
     return (
         {
@@ -128,10 +125,22 @@ function gameObject() {
            ]}  
         }
     ) 
-
-
 }
  console.log(gameObject())
+
+ function homeTeamName(){
+    return gameObject()['home']['teamName']
+ }
+
+ console.log(homeTeamName())
+
+
+
+
+
+
+
+
 
 
 // const gameObject = {
